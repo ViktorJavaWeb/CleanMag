@@ -1,0 +1,58 @@
+
+/*=============== ГЛОБАЛЬНЫЕ НАСТРОЙКИ ===============*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    border: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.outline1{
+    outline: 1px solid black;
+}
+.outline2{
+    outline: 1px solid red;
+}
+
+.wraper{
+    width: 100%;
+}
+
+.container{
+    width: 989px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*=============== КОНЕЦ ГЛОБАЛЬНЫЕ НАСТРОЙКИ ===============*/
+
+/*=============== HEDER-WRAPER ===============*/
+
+.head-wraper {
+}
+.head-wraper .container>div{
+    display: inline-block;
+}
+
+.logo{
+    line-height: 100%;
+    width: 261px;
+}
+.banner728x90 img{
+}
+
+/*=============== CLOSE HEDER-WRAPER ===============*/
+
+/*=============== ГЛОБАЛЬНЫЕ НАСТРОЙКИ ===============*/
+
+/*=============== ГЛОБАЛЬНЫЕ НАСТРОЙКИ ===============*/
