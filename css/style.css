@@ -38,20 +38,24 @@ body{
 
 /*=============== HEDER-WRAPER ===============*/
 
-.head-wraper {
+.head-wraper .container{
+    padding: 15px 0;
 }
-.head-wraper .container>div{
-    display: inline-block;
+.logo{
+    float: left;
 }
 
-.logo{
-    line-height: 100%;
-    width: 261px;
-}
-.banner728x90 img{
+.banner728x90{
+    float: right;
 }
 
 /*=============== CLOSE HEDER-WRAPER ===============*/
+
+
+
+
+
+
 
 /*=============== ГЛОБАЛЬНЫЕ НАСТРОЙКИ ===============*/
 
