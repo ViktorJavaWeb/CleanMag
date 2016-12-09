@@ -1,19 +1,22 @@
-
 /*=============== ГЛОБАЛЬНЫЕ НАСТРОЙКИ ===============*/
 *{
     margin: 0;
     padding: 0;
 }
-
 img{
     border: 0;
 }
-
 ul{
     list-style-type: none;
 }
 a{
     text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: darkorange;
 }
 .outline1{
     outline: 1px solid black;
@@ -21,21 +24,17 @@ a{
 .outline2{
     outline: 1px solid red;
 }
-
 .wraper{
     width: 100%;
 }
-
 .container{
-    width: 989px;
+    max-width: 989px;
     margin: 0 auto;
     font-size: 0;
 }
-
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
-
 /*=============== КОНЕЦ ГЛОБАЛЬНЫЕ НАСТРОЙКИ ===============*/
 
 /*=============== HEDER-WRAPER ===============*/
@@ -44,52 +43,111 @@ body{
     padding: 15px 0;
 }
 .logo{
-    display: inline-block;
     width: 261px;
+    display: inline-block;
 }
-
+.logo img{
+    padding:25px 0;
+}
 .banner728x90{
     width: 728px;
-    display: inline-block;
 }
 
 /*=============== CLOSE HEDER-WRAPER ===============*/
 
-
 /*=============== MENU-WRAPER ===============*/
 
 .menu-wraper{
-
+    background-color: cornsilk;
 }
 
-.menu-wraper .container .iconMenu .menuUl{
-    font-size: 0; display: inline-block;
+.menu-wraper .container{
+    overflow: hidden;
 }
 
-.menuUl li, .iconMenu li{
+.menuUl{
+    float: left;
+}
+.menuUl li{
+    display: inline-block;
+    vertical-align: middle;
+}
+.menuUl li a{
     font-size: 13px;
+    padding: 0 15px 0 0;
 }
+.iconMenu{
+    float: right;
+}
+
+.iconMenu li{
+    display: inline-block;
+}
+
+.iconMenu li img{
+    padding: 3px 0 3px 15px;
+}
+
 
 /*=============== CLOSE MENU-WRAPER ===============*/
 
-
-
-
-
 /*=============== ГЛОБАЛЬНЫЕ НАСТРОЙКИ ===============*/
-
 
 
 .content-wraper{
     padding: 15px;
 }
 
+.content-wraper .container{
+    overflow: hidden;
+}
+
 .content{
     width: 615px;
+    float: left;
+
 }
+.contentBlok{
+    display: inline-block;
+    font-size: 0;
+}
+
+.contentImg{
+    display: inline-block;
+}
+
+.contentBlookText{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 13px;
+}
+
+.coments{
+    overflow: hidden;
+}
+.admin{
+    float: left;
+}
+.coment{
+    float: right;
+}
+.content-Text{
+
+}
+
+h2{
+    font-size: 35px;
+}
+
+
+
 
 /*между ними 300*/
 .siteBar{
     width: 300px;
+    float: right;
 }
+
+
+
 /*=============== ГЛОБАЛЬНЫЕ НАСТРОЙКИ ===============*/
