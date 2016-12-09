@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+.clearfix{
+    clear: both;
+}
 img{
     border: 0;
 }
@@ -38,25 +41,28 @@ body{
 /*=============== КОНЕЦ ГЛОБАЛЬНЫЕ НАСТРОЙКИ ===============*/
 
 /*=============== HEDER-WRAPER ===============*/
-
 .head-wraper .container{
     padding: 15px 0;
+    height: 90px;
+    line-height: 90px;
+
 }
 .logo{
     width: 261px;
     display: inline-block;
+    vertical-align: top;
+
 }
 .logo img{
-    padding:25px 0;
+    vertical-align: middle;
 }
 .banner728x90{
     width: 728px;
+    display: inline-block;
 }
-
 /*=============== CLOSE HEDER-WRAPER ===============*/
 
 /*=============== MENU-WRAPER ===============*/
-
 .menu-wraper{
     background-color: cornsilk;
 }
@@ -64,34 +70,30 @@ body{
 .menu-wraper .container{
     overflow: hidden;
 }
-
 .menuUl{
     float: left;
 }
 .menuUl li{
     display: inline-block;
-    vertical-align: middle;
 }
 .menuUl li a{
+    line-height: 38px;
+    vertical-align: middle;
     font-size: 13px;
-    padding: 0 15px 0 0;
+    padding-right: 15px;
 }
 .iconMenu{
     float: right;
 }
-
 .iconMenu li{
     display: inline-block;
 }
-
 .iconMenu li img{
     padding: 3px 0 3px 15px;
 }
-
-
 /*=============== CLOSE MENU-WRAPER ===============*/
 
-/*=============== ГЛОБАЛЬНЫЕ НАСТРОЙКИ ===============*/
+/*=============== content-wraper ===============*/
 
 
 .content-wraper{
@@ -99,31 +101,40 @@ body{
 }
 
 .content-wraper .container{
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 13px;
     overflow: hidden;
 }
 
 .content{
-    width: 615px;
     float: left;
+    width: 615px;
+
+}
+
+.shedow{
+    border: 10px solid #f3f3f3;
+    width: 182px;
+    height: 183px;
+    position: absolute;
 
 }
 .contentBlok{
-    display: inline-block;
-    font-size: 0;
+    overflow: hidden;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 25px 0;
 }
-
 .contentImg{
-    display: inline-block;
+    float: left;
+    margin-right: 20px;
 }
-
 .contentBlookText{
-    display: inline-block;
-    vertical-align: top;
-    font-size: 13px;
 }
 
 .coments{
     overflow: hidden;
+    margin-bottom: 20px;
 }
 .admin{
     float: left;
@@ -131,23 +142,101 @@ body{
 .coment{
     float: right;
 }
-.content-Text{
-
+.content-Text h1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
 }
-
-h2{
-    font-size: 35px;
+.more{
+    padding-top: 25px;
 }
-
-
-
-
 /*между ними 300*/
 .siteBar{
     width: 300px;
     float: right;
 }
+/*=============== CLOSE content-wraper ===============*/
+
+/*=============== number =====================*/
+.number{
+    text-align: center;
+}
+
+.number li{
+    display: inline-block;
+}
+
+.number li a{
+    padding: 0 11px;
+    font-weight: bold;
+    font-size: 35px;
+}
+/*=============== CLOSE number ===============*/
 
 
+/*=============== footer-wraper =====================*/
+.footer-wraper{
+    width: 100%;
+    background-color: #f0f0f0;
+}
 
-/*=============== ГЛОБАЛЬНЫЕ НАСТРОЙКИ ===============*/
+.footer-wraper .container{
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 13px;
+    vertical-align: top;
+    line-height: 24px;
+}
+.footer-wraper .container h2{
+    text-transform: uppercase;
+
+}
+
+.book1{
+    width: 294px;
+    display: inline-block;
+    vertical-align: top;
+}
+.book2{
+    width: 321px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 12px;
+    padding-left: 45px;
+    box-sizing: border-box;
+
+}
+.book3{
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 35px;
+}
+/*=============== CLOSE footer-wraper ===============*/
+
+/*=============== foot =====================*/
+.foot-wraper{
+    width: 100%;
+}
+.foot-wraper .container{
+    padding-top: 25px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+.right1{
+    margin-right: 53px;
+}
+
+/*=============== CLOSE foot ===============*/
+
+
+/*=============== content-wraper =====================*/
+/*=============== CLOSE content-wraper ===============*/

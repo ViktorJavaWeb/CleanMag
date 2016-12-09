@@ -1,0 +1,22 @@
+*{
+	padding:0; margin:0;
+}
+img{
+	border:none;
+}
+#ft-prev-slideshowHolder, #ft-next-slideshowHolder{
+	display:none;
+}
+#slideshowHolder{
+	border:10px solid #f3f3f3;
+}
+#ft-buttons-slideshowHolder{
+	position:relative; top:-45px; font-size:12px;
+	
+}
+.ft-button-slideshowHolder{
+	background:#eb4900; color:#fff; margin:0 5px;
+} 
+.ft-button-slideshowHolder-active{
+	background:#e6e6e6; color:#373737;
+}
