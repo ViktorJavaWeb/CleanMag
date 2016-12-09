@@ -12,7 +12,9 @@ img{
 ul{
     list-style-type: none;
 }
-
+a{
+    text-decoration: none;
+}
 .outline1{
     outline: 1px solid black;
 }
@@ -42,16 +44,33 @@ body{
     padding: 15px 0;
 }
 .logo{
-    float: left;
+    display: inline-block;
+    width: 261px;
 }
 
 .banner728x90{
-    float: right;
+    width: 728px;
+    display: inline-block;
 }
 
 /*=============== CLOSE HEDER-WRAPER ===============*/
 
 
+/*=============== MENU-WRAPER ===============*/
+
+.menu-wraper{
+
+}
+
+.menu-wraper .container .iconMenu .menuUl{
+    font-size: 0; display: inline-block;
+}
+
+.menuUl li, .iconMenu li{
+    font-size: 13px;
+}
+
+/*=============== CLOSE MENU-WRAPER ===============*/
 
 
 
@@ -59,4 +78,18 @@ body{
 
 /*=============== ГЛОБАЛЬНЫЕ НАСТРОЙКИ ===============*/
 
+
+
+.content-wraper{
+    padding: 15px;
+}
+
+.content{
+    width: 615px;
+}
+
+/*между ними 300*/
+.siteBar{
+    width: 300px;
+}
 /*=============== ГЛОБАЛЬНЫЕ НАСТРОЙКИ ===============*/
