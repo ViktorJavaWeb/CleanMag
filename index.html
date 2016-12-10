@@ -57,14 +57,16 @@
 <!--=============== content-wraper =====================-->
 <div class="content-wraper">
     <div class="container">
-
-        <div id='slideshowHolder'>
-            <img src="images/img_1.jpg" alt='' />
-            <img src="images/img_1.jpg" alt='' />
-            <img src="images/img_1.jpg" alt='' />
-        </div>
-
         <div class="content">
+
+
+            <div id='slideshowHolder'>
+                <img src="images/img_1.jpg" alt='' />
+                <img src="images/img_1.jpg" alt='' />
+                <img src="images/img_1.jpg" alt='' />
+            </div>
+
+
             <div class="contentBlok">
                 <div class="shedow"></div>
                 <div class="contentImg">
@@ -212,7 +214,15 @@
         </div>
 
         <!--=============== siteBar =====================-->
-        <div class="siteBar"></div>
+        <div class="siteBar">
+            <div class="search">
+                <form name="searchQ" action="" method="post">
+                    <input type="text" name="search" value="Поиск" onfocus="if(this.value=='Поиск')this.value=''" onblur="if(this.value=='')this.value='Поиск'">
+                    <input type="image" src="images/search.png">
+                </form>
+            </div>
+
+        </div>
         <!--=============== CLOSE siteBar ===============-->
 
 

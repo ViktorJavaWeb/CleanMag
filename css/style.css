@@ -150,12 +150,15 @@ body{
 .more{
     padding-top: 25px;
 }
-/*между ними 300*/
+/*=============== CLOSE content-wraper ===============*/
+
+/*=============== siteBar =====================*/
 .siteBar{
     width: 300px;
     float: right;
 }
-/*=============== CLOSE content-wraper ===============*/
+
+/*=============== CLOSE siteBar ===============*/
 
 /*=============== number =====================*/
 .number{
